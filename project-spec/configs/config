@@ -137,7 +137,7 @@ CONFIG_SUBSYSTEM_EXTRA_DT_FILES=""
 #
 CONFIG_SUBSYSTEM_BOOTARGS_AUTO=y
 CONFIG_SUBSYSTEM_BOOTARGS_EARLYPRINTK=y
-CONFIG_SUBSYSTEM_BOOTARGS_GENERATED=" earlycon console=ttyPS0,115200 clk_ignore_unused root=/dev/ram0 rw"
+
 CONFIG_SUBSYSTEM_EXTRA_BOOTARGS=""
 CONFIG_SUBSYSTEM_DEVICETREE_COMPILER_FLAGS="-@"
 # CONFIG_SUBSYSTEM_DTB_OVERLAY is not set
@@ -271,12 +271,7 @@ CONFIG_PRE_MIRROR_URL="http://petalinux.xilinx.com/sswreleases/rel-v${PETALINUX_
 # Local sstate feeds settings
 #
 CONFIG_YOCTO_LOCAL_SSTATE_FEEDS_URL=""
-CONFIG_YOCTO_NETWORK_SSTATE_FEEDS=y
-
-#
-# Network sstate feeds URL
-#
-CONFIG_YOCTO_NETWORK_SSTATE_FEEDS_URL="http://petalinux.xilinx.com/sswreleases/rel-v${PETALINUX_MAJOR_VER}/aarch64/sstate-cache"
+# CONFIG_YOCTO_NETWORK_SSTATE_FEEDS is not set
 # CONFIG_YOCTO_BB_NO_NETWORK is not set
 # CONFIG_YOCTO_BUILDTOOLS_EXTENDED is not set
 
@@ -287,3 +282,7 @@ CONFIG_USER_LAYER_0="${PROOT}/project-spec/meta-ros-common"
 CONFIG_USER_LAYER_1="${PROOT}/project-spec/meta-ros2"
 CONFIG_USER_LAYER_2="${PROOT}/project-spec/meta-ros2-humble"
 CONFIG_USER_LAYER_3=""
+
+
+
+CONFIG_SUBSYSTEM_BOOTARGS_GENERATED=" earlycon console=ttyPS0,115200 clk_ignore_unused root=/dev/ram0 rw"

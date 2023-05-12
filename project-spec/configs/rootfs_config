@@ -2108,14 +2108,14 @@ CONFIG_libdfx=y
 #
 # xrt
 #
-CONFIG_xrt=y
-CONFIG_xrt-dev=y
+# CONFIG_xrt is not set
+# CONFIG_xrt-dev is not set
 # CONFIG_xrt-dbg is not set
 
 #
 # zocl
 #
-CONFIG_zocl=y
+# CONFIG_zocl is not set
 # CONFIG_zocl-dev is not set
 # CONFIG_zocl-dbg is not set
 
@@ -4120,37 +4120,37 @@ CONFIG_Init-manager-systemd=y
 # user packages 
 #
 # CONFIG_ROS is not set
-CONFIG_cyclonedds=y
-CONFIG_demo-nodes-cpp=y
-CONFIG_demo-nodes-cpp-rosnative=y
-CONFIG_demo-nodes-py=y
-CONFIG_examples-rclcpp-minimal-action-client=y
-CONFIG_examples-rclcpp-minimal-action-server=y
-CONFIG_examples-rclcpp-minimal-client=y
-CONFIG_examples-rclcpp-minimal-composition=y
-CONFIG_examples-rclcpp-minimal-publisher=y
-CONFIG_examples-rclcpp-minimal-service=y
-CONFIG_examples-rclcpp-minimal-subscriber=y
-CONFIG_examples-rclcpp-minimal-timer=y
-CONFIG_examples-rclcpp-multithreaded-executor=y
-CONFIG_examples-rclpy-executors=y
-CONFIG_examples-rclpy-minimal-action-client=y
-CONFIG_examples-rclpy-minimal-action-server=y
-CONFIG_examples-rclpy-minimal-client=y
-CONFIG_examples-rclpy-minimal-publisher=y
-CONFIG_examples-rclpy-minimal-service=y
-CONFIG_examples-rclpy-minimal-subscriber=y
-CONFIG_glibc-utils=y
+# CONFIG_cyclonedds is not set
+# CONFIG_demo-nodes-cpp is not set
+# CONFIG_demo-nodes-cpp-rosnative is not set
+# CONFIG_demo-nodes-py is not set
+# CONFIG_examples-rclcpp-minimal-action-client is not set
+# CONFIG_examples-rclcpp-minimal-action-server is not set
+# CONFIG_examples-rclcpp-minimal-client is not set
+# CONFIG_examples-rclcpp-minimal-composition is not set
+# CONFIG_examples-rclcpp-minimal-publisher is not set
+# CONFIG_examples-rclcpp-minimal-service is not set
+# CONFIG_examples-rclcpp-minimal-subscriber is not set
+# CONFIG_examples-rclcpp-minimal-timer is not set
+# CONFIG_examples-rclcpp-multithreaded-executor is not set
+# CONFIG_examples-rclpy-executors is not set
+# CONFIG_examples-rclpy-minimal-action-client is not set
+# CONFIG_examples-rclpy-minimal-action-server is not set
+# CONFIG_examples-rclpy-minimal-client is not set
+# CONFIG_examples-rclpy-minimal-publisher is not set
+# CONFIG_examples-rclpy-minimal-service is not set
+# CONFIG_examples-rclpy-minimal-subscriber is not set
+# CONFIG_glibc-utils is not set
 # CONFIG_gpio-demo is not set
-CONFIG_localedef=y
+# CONFIG_localedef is not set
 # CONFIG_opencl-headers-dev is not set
 # CONFIG_peekpoke is not set
-CONFIG_python3-argcomplete=y
-CONFIG_rmw-cyclonedds-cpp=y
+# CONFIG_python3-argcomplete is not set
+# CONFIG_rmw-cyclonedds-cpp is not set
 CONFIG_ros-base=y
-CONFIG_rt-tests=y
-CONFIG_stress=y
-CONFIG_tmux=y
+# CONFIG_rt-tests is not set
+# CONFIG_stress is not set
+# CONFIG_tmux is not set
 
 #
 # PetaLinux RootFS Settings
